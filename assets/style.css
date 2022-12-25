@@ -66,6 +66,10 @@ input {
     margin-top: -20px;
 }
 
+.shopping li:hover {
+    background-color: red;
+}
+
 
 
 .shopping img {

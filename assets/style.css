@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Space+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    font-family: 'Lobster', cursive;
+}
+
+h2 {
+    text-shadow: 1px 1px 2px lightgrey;
+}
+
+p {
+    font-family: 'Space Mono', monospace;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+}
+
+nav {
+    height: 75px;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 15px;
+    font-family: 'Space Mono', monospace;
+}
+
+.nav-list li a:hover {
+    background-color: red;
+}
+
+.nav-list {
+    list-style: none;
+    float: left;
+    padding: 20px;
+}
+
+input {
+    margin-top: 20px;
+    margin-left: 480px;
+}
+
+.shopping {
+    float: right;
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Space Mono', monospace;
+    margin-top: -20px;
+}
+
+
+
+.shopping img {
+    background-color: white;
+}
+
+.brand-logo {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+    padding: 5px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.hero {
+    background-image: url(https://images.pexels.com/photos/76969/cold-front-warm-front-hurricane-felix-76969.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px 80px;
+    
+}
+
+.title-box {
+    width: 400px;
+    
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    margin:0 auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    padding: 80px 20px;
+}
+
+.main h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr;
+    color: white;
+    padding: 90px 50px;
+    margin-top: auto;
+}
+
+.col1 h3 {
+    font-size: 40px;
+}
+
+.col2 ul {
+    list-style: none;
+}
+
+.col2 ul li a{
+    color: white;
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.col2 ul li a:hover {
+    background-color: red;
+}
+
+.contact-form input {
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+.contact-form input[type=button] {
+    background-color: aqua;
+    padding: 5px 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+input[type=button]:hover {
+    background-color: red;
+}
